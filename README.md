@@ -1,6 +1,6 @@
 # openLayup
 
-![Alt text](resources/oL_logo.svg)
+![Alt text](resources/oL-logo.svg)
 
 ## Overview
 
