@@ -1,5 +1,7 @@
 # openLayup
 
+![Alt text](resources/oL_logo.svg)
+
 ## Overview
 
 **openLayup** is an open-source, GUI-based structural simulation tool for aerospace structures. The software estimates key mechanical metrics such as stress, strain, and factor of safety based on material properties, ply layup configurations, and component geometries. It applies **Classical Laminate Theory (CLT)** and the **Tsai-Wu failure criterion**, enabling laminate-level failure-mode analysis across various aerospace components.
