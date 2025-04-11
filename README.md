@@ -4,7 +4,7 @@
 
 ## Overview
 
-**openLayup** is an open-source, GUI-based structural simulation tool for aerospace structures. The software estimates key mechanical metrics such as stress, strain, and factor of safety based on material properties, ply layup configurations, and component geometries. It applies **Classical Laminate Theory (CLT)** and the **Tsai-Wu failure criterion**, enabling laminate-level failure-mode analysis across various aerospace components.
+**openLayup** is an open-source, GUI-based structural simulation tool for rocketry structural components. The software estimates key mechanical metrics such as stress, strain, and factor of safety based on material properties, ply layup configurations, and component geometries. It applies multiple failure methods, enabling laminate-level failure-mode analysis across various aerostructural components.  This is aimed to be a specialized tool bridging the gap between simplified analysis and full-scale FEA for composite rocket structures. 
 
 > _Note: openLayup is inspired by [openMotor](https://github.com/reilleya/openMotor), an open-source internal ballistics simulator for solid rocket motors. It follows a similar philosophy of enabling experimental, iterative workflows for engineers and designers._
 
@@ -14,18 +14,17 @@
 
 - Support for composite and isotropic materials  
 - Ply-level configuration, including orientation and stacking sequence  
-- Common component geometries: nosecones, airframes, fins  
+- Common component geometries presets: nosecones, airframes, fins  
 - Material database with user-editable properties  
 - CLT-based analysis of in-plane and out-of-plane behavior  
-- Failure mode estimation using the Tsai-Wu criterion  
-- Metric and imperial unit support  
-- Design visualization and layout overview  
+- Failure mode analysis using **Max Stress/Strain criteria, CLT, Tsai-Wu, Tsai-Hill, Hashin-Rotem, and Puck Criterion**
 - Save/load project functionality  
-- Thermal loading and expansion analysis  
-- Buckling prediction for thin-walled structures  
-- Finite element mesh export for external analysis tools  
-- Additional failure criteria (e.g., Maximum Stress, Hashin)  
-- Aero load simulation integration  
+- Buckling prediction for thin-walled structures
+- Integrate efficiently with openRocket, SolidWorks, and ANSYS workflow
+*Thermal loading and expansion analysis
+*Design visualization and layout overview
+*Metric and imperial unit support  
+
 
 ---
 
