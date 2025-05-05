@@ -53,8 +53,6 @@ To be added. A standalone installer and executable will be provided in future re
 ```bash
 $ git clone https://github.com/Agu303/openLayup.git
 $ cd openLayup
-$ python3 -m venv .venv
-$ source .venv/bin/activate         # On Windows: .venv\Scripts\activate
-$ pip install -r requirements.txt
-
+$ uv run main.py
+```
 c w/h
